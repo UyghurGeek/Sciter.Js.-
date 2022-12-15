@@ -1,18 +1,18 @@
-# CSS namespace
+# CSS 命名空间
 
-This namespace object contains CSS helper functions.
+这个命名空间对象包含 CSS 辅助函数。
 
 ## Methods:
 
 ### `CSS.supports(prop,value):bool`
 
-Reports if the engine supports given property name and value.
+报告引擎是否支持给定的属性名称和值。
 
 ### `CSS.set(string):StyleSet`
 
-Sciter specific, StyleSet constructor.
+Sciter 特定的 StyleSet 构造函数。
 
-This function allows to construct style set objects at runtime. Primary purpose is to be used in Reactor components to define component styles in the same JS file as the component itself:
+此函数允许在运行时构造样式集对象。主要目的是在 Reactor 组件中用于在与组件本身相同的 JS 文件中定义组件样式：
 
 ```JavaScript 
 
